@@ -1,0 +1,34 @@
+body {
+    background-color: #1a1a1a; /* Dark gray background */
+    color: #ffffff; /* White text */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center content */
+    align-items: center; /* Horizontally center content */
+}
+
+h2 {
+    color: #00cc99; /* Teal accent color */
+    margin-bottom: 20px;
+    font-size: 3rem;
+}
+
+img {
+    max-width: 500px; /* Increased size of QR code */
+    width: 100%; /* Responsive width */
+    border: 4px solid #ffffff;
+    border-radius: 24px;
+    background-color: #ffffff;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+p {
+    color: #cccccc; /* Light gray text */
+    font-size: 18px;
+    margin-top: 20px;
+}
